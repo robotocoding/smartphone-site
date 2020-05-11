@@ -1,0 +1,83 @@
+.jumbotron {
+    background-image: url(../assets/hiphone_10.jpg);
+    background-size: cover;
+    height: 330px;
+}
+
+.jumbotron h2, .jumbotron h3 {
+    color: white;
+}
+
+.hiwatch-card, .hicode-card {
+    margin-bottom: 20px;
+}
+
+footer h3, a, p {
+    color: gray;
+}
+    
+.widget h4 {
+    font-size: 16px;
+}
+
+.widget-list li a:hover {
+    text-decoration: underline;
+}
+
+.widget .card-header a {
+    width: 100%;
+    display: block;
+}
+
+.widget .card-header a:after {
+    content: "+";
+    position: absolute;
+    right: 40px;
+    top: 15px;
+}
+
+.widget .card-header a:hover:focus {
+    text-decoration: none;
+}
+
+.widget-list {
+    padding: 0 21px;
+}
+
+.widget-list li {
+    margin: 5px 0;
+}
+
+#footer-row {
+    padding: 0px 50px;
+}
+
+.navbar .navbar-brand img {
+    width: 25px;
+    height: 25px;
+}
+
+.nav-item .fa-shopping-bag {
+    font-size: 25px;
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .jumbotron {
+        background-image: url(../assets/hiphone_10_desktop.png); 
+    }
+    
+    .jumbotron a {
+        font-size: 20px;
+        padding: 0 30px;
+    }
+    
+    .nav-item .payment-options {
+        display: none;
+    }
+    
+    .nav-item .fa-shopping-bag {
+        display: block;
+    }
+}
